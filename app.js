@@ -6,7 +6,7 @@ const { config } = require('dotenv')
 config()
 const app = express();
 const port = process.env.PORT;
-const params = { nombre: 'Jhostin Osorio', titulo: 'Curso de Node' }
+const params = { nombre: 'Jhostin OM', titulo: 'Curso de Node' }
 
 app.set('view engine', 'hbs');
 hbs.registerPartials(path.resolve('views/partials'))
